@@ -9,6 +9,7 @@ A set of software development skills, distributed as a Claude Code plugin market
 | `create-expert-skill` | Turns a documentation URL, `llms.txt`, or GitHub repo into a "library expert" skill |
 | `htmx-expert` | Expert guidance for htmx 2.0.x — attributes, swaps, events, extensions, and UI patterns |
 | `python-code-writing` | Conventions for writing Python |
+| `skill-review` | Scores a skill against a 6-criterion analytic rubric and returns located, prioritized fixes |
 | `ts-code-writing` | Conventions for writing TypeScript |
 
 ## Install

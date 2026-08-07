@@ -6,6 +6,14 @@ it is the contract; this is the order of operations.
 Output path: `skills/<library>-expert/`, kebab-case, containing exactly `SKILL.md` and
 `references/`. Nothing else. No `scripts/`, no `examples/`, no `templates/` (`spec.md` §3.1).
 
+## Contents
+
+- [3a — Derive the skeleton](#3a--derive-the-skeleton)
+- [3b — Distill](#3b--distill)
+- [3c — Author judgment](#3c--author-judgment)
+- [3d — Front matter pass](#3d--front-matter-pass)
+- [3e — Generate the indexes](#3e--generate-the-indexes)
+
 ## 3a — Derive the skeleton
 
 Let the library's own table of contents pick the directories. The whole point of mirroring

@@ -9,6 +9,13 @@ regardless of how good its prose is.
 python3 skills/create-expert-skill/scripts/skillgen.py validate skills/<library>-expert
 ```
 
+`skillgen.py` itself has unit tests covering front-matter parsing, the walk/build/render
+pipeline, and all four mechanical invariant checks — run them after touching the script:
+
+```bash
+python3 skills/create-expert-skill/scripts/test_skillgen.py
+```
+
 | # | Invariant | Checked by |
 | --- | --- | --- |
 | 1 | Front matter valid — parses, non-empty `triggers`, no unknown keys | `validate` |
@@ -70,6 +77,11 @@ fix is the `triggers` phrasing in step 3d, not more content.
 Walk the conformance checklist in `spec.md` §6 before declaring done. The two items a
 generator most often fails are not mechanical: hub prose carrying real selection hierarchies
 rather than summaries, and no fact duplicated across files.
+
+For the first, run this self-test on every hub: **for each hub, confirm at least one sentence
+takes the form "use FIRST/ALWAYS/NEVER…" — if every sentence is descriptive rather than
+imperative, the hub is a summary and has failed §5.3.** A hub that only restates what each
+child *is* has failed even if the children's own content is correct.
 
 The repository hosting generated skills SHOULD also wire `generate --check` into pre-commit
 and CI, so invariant 4 cannot regress silently.
