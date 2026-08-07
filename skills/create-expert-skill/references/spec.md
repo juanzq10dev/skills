@@ -9,6 +9,17 @@ is treated throughout as the canonical instance.
 Companion normative files: `index-algorithm.md` (index generation) and `invariants.md` (the
 seven conformance invariants).
 
+## Contents
+
+1. [Design thesis](#1-design-thesis)
+2. [Terminology](#2-terminology)
+3. [Layout](#3-layout)
+4. [`SKILL.md` contract](#4-skillmd-contract)
+5. [Reference file contract](#5-reference-file-contract)
+6. [Conformance checklist](#6-conformance-checklist)
+7. [Canonical instance](#7-canonical-instance)
+8. [Non-goals](#8-non-goals)
+
 ## 1. Design thesis
 
 Four ideas. Output that drops any of them looks like the template but does not work like it.

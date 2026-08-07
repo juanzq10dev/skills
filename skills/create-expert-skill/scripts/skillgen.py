@@ -20,6 +20,7 @@ BEGIN_MARKER = "<!-- BEGIN GENERATED INDEX -->"
 END_MARKER = "<!-- END GENERATED INDEX -->"
 
 ALLOWED_KEYS = {"title", "triggers", "type"}
+# spec.md §4.2, §7: canonical instance (dagster-expert) SKILL.md is 78 lines, 7.2 KB.
 SKILL_MD_MAX_LINES = 120
 SKILL_MD_MAX_BYTES = 8 * 1024
 
