@@ -1,7 +1,11 @@
 {
   "name": "dev-skills",
-  "description": "Language conventions for TypeScript and Python, an htmx 2.0 expert reference, and a generator that turns library documentation into expert skills.",
+  "description": "Language conventions for TypeScript and Python, library expert references (htmx 2.0, Feature-Sliced Design), and a generator that turns library documentation into expert skills.",
   "version": "0.1.0",
+  "skills": [
+    "./skills/",
+    "./dev-experts/"
+  ],
   "author": {
     "name": "Juan Zurita"
   }
